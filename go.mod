@@ -1,0 +1,1 @@
+module github.com/yumuranaoki/vugu-practice

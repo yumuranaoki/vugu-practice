@@ -1,0 +1,9 @@
+<div class="container">
+    <button @click="data.Toggle()">Toggle</button>
+    <div vg-if="data.Show">What is your question?</div>
+</div>
+
+<script type="application/x-go">
+  type RootData struct { Show bool }
+  func (data *RootData) Toggle() { data.Show = !data.Show }
+</script>
